@@ -1,7 +1,5 @@
 """
-Credits: Webhook spammer made by andy
-Discord: !ANDY!#0001
-Github: AndyOnTop
+made by zenci 
 """
 print("""
                                                                                                  
@@ -21,9 +19,7 @@ import time
 
 message = input("what do you want to spam nigga: ")
 webhookurl = Webhook(input("enter webhook nigga its not hard: "))
-delay = int(input("Enter a delay: "))
 
 while True:
-    time.sleep(delay)
     webhookurl.send(message)
     print("Sent.")
